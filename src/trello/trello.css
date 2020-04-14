@@ -1,0 +1,41 @@
+.banner{
+    background-color: cornflowerblue;
+    border:1px solid blue;
+    height: 3.5rem;
+    font-size: xx-large;
+    font-weight: bold;
+}
+#createButton{
+    float: right;
+    width: 4.5rem;
+    height: 2.5rem;
+    background-color: cornflowerblue;
+    border:1px solid blue;
+    font-weight: bold;
+}
+.trelloTable{
+    border: 1px solid black;
+    width: 100%;
+    
+}
+.headerRow{
+    background-color: cornflowerblue;
+}
+.headerRow th {
+    border: 1px solid black;
+}
+.dataRow td {
+    border: 1px solid black;
+    height: calc(100vh - 132px);
+    vertical-align: top;
+}
+.dataRow td > div{
+    border: 1px solid black;
+    background-color: #b6d2ea;
+    margin: 5px;
+    cursor: pointer;
+}
+.deleteButton {
+    float: right;
+    margin: 5px;
+}
